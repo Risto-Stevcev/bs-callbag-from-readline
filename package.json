@@ -1,0 +1,27 @@
+{
+  "name": "bs-callbag-from-readline",
+  "version": "0.1.0",
+  "description": "Create a listenable source from a readline interface",
+  "scripts": {
+    "test": "mocha lib/js/test/**.js",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@ristostevcev/bs-callbag-basics": "^1.4.0",
+    "bs-mocha": "^1.0.0",
+    "bs-platform": "^5.2.1",
+    "callbag-to-promise": "^1.0.1"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag": "^1.1.0",
+    "@ristostevcev/bs-node-stream": "^0.1.0",
+    "callbag-from-readline": "^1.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "bs-callbag-from-readline",
+  "version": "0.1.0",
+  "sources": [{
+    "dir" : "src",
+    "subdirs" : true
+  }, {
+    "dir" : "test",
+    "type": "dev",
+    "subdirs" : true
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag",
+    "@ristostevcev/bs-node-stream"
+  ],
+  "bs-dev-dependencies": [
+    "@ristostevcev/bs-callbag-basics",
+    "bs-mocha"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
